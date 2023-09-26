@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url("https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+  background-size: cover;
+  overflow: hidden;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 28px;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  background: rgba(0, 247, 255, 0.253);
+}
+
+.clock {
+  display: flex;
+  color: aliceblue;
+}
+.clock div {
+  margin: 5px;
+  position: relative;
+}
+.clock span {
+  height: 80px;
+  width: 100px;
+  background: rgb(221, 65, 125);
+  opacity: 0.8;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.clock #text {
+  height: 30px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+
+.clock #ampm {
+  bottom: 0;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  background: rgb(172, 0, 164);
+}
